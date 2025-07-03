@@ -1,4 +1,4 @@
-# Fake News Detection with Linguistic Feature Analysis using SVM and RF
+# Fake News Detection using Linguistic Feature Analysis with SVM and RF
 
 This repository contains all scripts used for a fake news detection project comparing traditional machine learning models (SVM, Random Forest) trained on handcrafted linguistic features across LIAR and ISOT datasets. The study also tests cross-domain generalizability to evaluate feature robustness under realistic deployment conditions.
 
@@ -61,10 +61,3 @@ The `part3_training_pipeline.py` script outputs include:
 ## Author
 
 - Harun Eroglu
-
-Maintained by [Your Name]. Contact for further clarifications or collaboration proposals.
-
----
-
-This version is now in **GitHub Markdown format**, ready for direct copy-paste to your repository README.md file. Let me know if you want badge templates or license section next.
-
