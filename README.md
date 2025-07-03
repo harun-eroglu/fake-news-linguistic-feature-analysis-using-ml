@@ -16,7 +16,7 @@ Defines the `FakeNewsFeatureExtractor` class with POS-based, structural, and emo
 ### ii_feature_extraction_execution.py
 Applies the feature extraction pipeline to the preprocessed LIAR and ISOT datasets, generating CSV files containing feature matrices with text and labels.
 
-### ii_heatmap.py
+### heatmap.py
 Combines Random Forest feature importance outputs from LIAR and ISOT into a single dataframe and visualizes their comparison as a heatmap using Seaborn.
 
 ### part3_training_pipeline.py
