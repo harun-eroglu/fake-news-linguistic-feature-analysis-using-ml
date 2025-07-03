@@ -42,14 +42,15 @@ Due to file size limitations on GitHub, please download the original, unprocesse
 1. Download the ZIP file and extract it.
 2. Place the extracted folders (`liar` and `isot`) inside your project directory.
 
-## Results
+## Result files
 
-The `part3_training_pipeline.py` script outputs include:
-- Classification reports for SVM and RF on both datasets
-- Best hyperparameter selections
-- Feature importance rankings
-- Cross-domain generalizability results
-- Statistical significance (paired t-test) results
+Additionally, preprocessed datasets and all final result CSV files (feature matrices, classification reports for SVM and RF on both datasets, feature importance outputs, best hyperparameter selection, paired t-test, cross-domain generalizability results) can be downloaded from the following link:
+
+[Download preprocessed data and results (Google Drive)](https://drive.google.com/drive/folders/1larNKuQV_IR1qi49BQem0Aawl-D-xGXm?usp=sharing)
+
+**Instructions:**
+- Place the preprocessed data files into appropriate directories if you want to skip preprocessing scripts.
+- The results folder includes outputs from `part3_training_pipeline.py` for direct inspection without rerunning models.
 
 ## Author
 
