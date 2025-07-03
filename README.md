@@ -34,10 +34,13 @@ Run scripts sequentially in the following order:
 
 ## Datasets
 
-- **LIAR dataset:** Political claims labeled for truthfulness.
-- **ISOT dataset:** Full news articles labeled as fake or real.
+Due to file size limitations on GitHub, please download the original, unprocessed datasets required to run the preprocessing and feature extraction scripts from the following Google Drive link:
 
-Ensure datasets are placed in the correct paths as defined in each script.
+[Download LIAR and ISOT datasets (Google Drive)](https://drive.google.com/drive/folders/1DOMW3gtJIwVQnDlF0IrPB5ZE01MAl6wq?usp=sharing)
+
+**Instructions:**
+1. Download the ZIP file and extract it.
+2. Place the extracted folders (`liar` and `isot`) inside your project directory.
 
 ## Results
 
