@@ -1,4 +1,4 @@
-# Fake News Detection using Linguistic Feature Analysis
+# Fake News Detection with Linguistic Feature Analysis using SVM and RF
 
 This repository contains all scripts used for a fake news detection project comparing traditional machine learning models (SVM, Random Forest) trained on handcrafted linguistic features across LIAR and ISOT datasets. The study also tests cross-domain generalizability to evaluate feature robustness under realistic deployment conditions.
 
@@ -16,7 +16,7 @@ Defines the `FakeNewsFeatureExtractor` class with POS-based, structural, and emo
 ### ii_feature_extraction_execution.py
 Applies the feature extraction pipeline to the preprocessed LIAR and ISOT datasets, generating CSV files containing feature matrices with text and labels.
 
-### heatmap.py
+### ii_heatmap.py
 Combines Random Forest feature importance outputs from LIAR and ISOT into a single dataframe and visualizes their comparison as a heatmap using Seaborn.
 
 ### part3_training_pipeline.py
@@ -39,7 +39,7 @@ Run scripts sequentially in the following order:
 - i_isot_downsampled.py
 - ii_feature_extraction_module.py (imported by next script)
 - ii_feature_extraction_execution.py
-- heatmap.py
+- ii_heatmap.py
 - part3_training_pipeline.py
 
 ## Datasets
@@ -58,13 +58,9 @@ The `part3_training_pipeline.py` script outputs include:
 - Cross-domain generalizability results
 - Statistical significance (paired t-test) results
 
-## Repository Name Suggestion
+## Author
 
-`fake-news-linguistic-feature-analysis`
-
-This name concisely reflects the project’s scope and methodology.
-
----
+- Harun Eroglu
 
 Maintained by [Your Name]. Contact for further clarifications or collaboration proposals.
 
