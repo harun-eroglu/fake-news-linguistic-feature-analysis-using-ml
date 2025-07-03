@@ -22,16 +22,6 @@ Combines Random Forest feature importance outputs from LIAR and ISOT into a sing
 ### part3_training_pipeline.py
 Implements the final training pipeline: data loading, standardization, SVM and Random Forest training with GridSearchCV, cross-domain generalizability tests, statistical significance tests, and saves all results as CSVs for further analysis and reporting.
 
-## Overview
-
-This study investigates the effectiveness of traditional machine learning models trained on interpretable handcrafted linguistic features for fake news detection. Three feature categories were used:
-
-- POS-based stylistic features
-- Structural features
-- Emotional features (NRC Emotion Lexicon)
-
-The project further evaluates whether models trained on one domain (political claims or full news articles) generalize to another domain without fine-tuning.
-
 ## How to Run
 
 Run scripts sequentially in the following order:
